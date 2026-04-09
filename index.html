@@ -6,30 +6,31 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat&family=Lobster&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
   <header>
     <div class="topo">
-  <div class="logo-titulo">
-<img src="images/postagem-instagram.jpg" alt="Logo do Site" class="logo">
-    <h1 class="titulo-branco">Bem-vindo ao Meu Site</h1>
-  </div>
-  <nav>
-    <ul>
-      <li><a href="index.html">Início</a></li>
-      <li><a href="pagina1.html">Página 1</a></li>
-      <li><a href="pagina2.html">Página 2</a></li>
-      <li><a href="pagina3.html">Página 3</a></li>
-      <li><a href="pagina4.html">Página 4</a></li>
-      <link rel="stylesheet" href="css/style.css">
-    </ul>
-  </nav>
-</div>
+      <div class="logo-titulo">
+        <img src="images/postagem-instagram.jpg" alt="Logo do Site" class="logo">
+        <h1 class="titulo-branco">Bem-vindo ao Meu Site</h1>
+      </div>
 
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="pagina1.html">Página 1</a></li>
+          <li><a href="pagina2.html">Página 2</a></li>
+          <li><a href="pagina3.html">Página 3</a></li>
+          <li><a href="pagina4.html">Página 4</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
     <h2>Sobre o Site</h2>
-    <p>Este site é um projeto prático feito com HTML e CSS, demonstrando o uso de imagens, vídeos, formulários, e muito mais.</p>
+    <p>Este site é um projeto prático feito com HTML e CSS, demonstrando o uso de imagens, vídeos, formulários e muito mais.</p>
 
     <h3>Lista de Conteúdos</h3>
     <ul>
@@ -47,38 +48,45 @@
       </li>
     </ul>
 
-    <h3>Aqui está um video relacionado ao que está presente no meu site, que é sobre carros.</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=4BUjqhmKWVw" 
-title="YouTube video player" frameborder="0" allowfullscreen>
-</iframe>
+    <h3>Aqui está um vídeo relacionado ao tema do site (carros)</h3>
+
+    <div class="video">
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/4BUjqhmKWVw" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allowfullscreen>
+      </iframe>
+    </div>
 
     <h3>Formulário de Contato</h3>
-  <form action="https://formsubmit.co/raysilvamatos48@gmail.com" method="POST">
-  <input type="hidden" name="_next" value="https://rsm23191.github.io/meu-site-html-css/obrigado.html">
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_subject" value="Novo Contato do Meu Site!">
 
-  <label for="nome">Nome:</label><br>
-  <input type="text" id="nome" name="nome" required><br><br>
+    <form action="https://formsubmit.co/raysilvamatos48@gmail.com" method="POST">
+      <input type="hidden" name="_next" value="https://rsm23191.github.io/meu-site-html-css/obrigado.html">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="Novo Contato do Meu Site!">
 
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" required><br><br>
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome" required><br><br>
 
-  <label for="assunto">Assunto:</label><br>
-  <input type="text" id="assunto" name="assunto"><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
 
-  <label for="mensagem">Mensagem:</label><br>
-  <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+      <label for="assunto">Assunto:</label><br>
+      <input type="text" id="assunto" name="assunto"><br><br>
 
-  <label for="tipo">Tipo de Contato:</label><br>
-  <select id="tipo" name="tipo">
-    <option value="duvida">Dúvida</option>
-    <option value="elogio">Elogio</option>
-    <option value="sugestao">Sugestão</option>
-  </select><br><br>
+      <label for="mensagem">Mensagem:</label><br>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
 
-  <button type="submit">Enviar</button>
-</form>
+      <label for="tipo">Tipo de Contato:</label><br>
+      <select id="tipo" name="tipo">
+        <option value="duvida">Dúvida</option>
+        <option value="elogio">Elogio</option>
+        <option value="sugestao">Sugestão</option>
+      </select><br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
 
   </main>
 
@@ -86,9 +94,9 @@ title="YouTube video player" frameborder="0" allowfullscreen>
     <p>Email: raysilvamatos48@gmail.com</p>
     <p>Redes Sociais:
       <a href="https://www.instagram.com/r_a_y_s_i_l_v_a_19" target="_blank">@r_a_y_s_i_l_v_a_19</a> |
-<a href="https://www.facebook.com/raysilva" target="_blank">Ray Silva</a>
-
+      <a href="https://www.facebook.com/raysilva" target="_blank">Ray Silva</a>
     </p>
   </footer>
+
 </body>
 </html>
